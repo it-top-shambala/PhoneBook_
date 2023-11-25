@@ -8,6 +8,8 @@
 
     <ItemGroup>
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
+        
+      <ProjectReference Include="..\PhoneBook.Model\PhoneBook.Model.csproj" />
     </ItemGroup>
 
 </Project>
